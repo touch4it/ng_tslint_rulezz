@@ -1,0 +1,16 @@
+{
+  "name": "@touch4it/ng_tslint_rulezz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tslint.json",
+  "scripts": {
+    "publish:t4i": "npm run npm_prepublish && npm publish --registry https://npm.touch4.it",
+    "npm_prepublish": "rm -rf node_modules && rm package-lock.json && npm i"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "codelyzer": "^5.2.2"
+  }
+}
