@@ -26,7 +26,22 @@
       "member-ordering": [
         true,
         {
-          "order": ["static-field", "instance-field", "static-method", "instance-method"]
+          "order": [
+            "public-static-field",
+            "protected-static-field",
+            "public-static-method",
+            "protected-static-method",
+            "public-instance-field",
+            "public-instance-accessor",
+            "protected-instance-field",
+            "protected-instance-accessor",
+            "private-instance-field",
+            "private-instance-accessor",
+            "constructor",
+            "public-instance-method",
+            "protected-instance-method",
+            "private-instance-method"
+          ]
         }
       ],
       "no-arg": true,
@@ -93,4 +108,3 @@
       "no-consecutive-blank-lines": [true, 1]
     }
   }
-  
